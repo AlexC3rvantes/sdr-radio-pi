@@ -1,1 +1,40 @@
-# sdr-radio-pi
+# Raspberry Pi SDR Radio Station
+
+A software-defined radio system built on a Raspberry Pi 5 that receives and decodes
+real-world radio signals — from FM broadcasts to live weather satellite imagery from orbit.
+
+## What it does
+
+- 📻 **Phase 1 — FM Radio:** Tunes and plays live FM stations using a $30 USB dongle
+- ✈️ **Phase 2 — Aircraft Tracking:** Decodes ADS-B signals to map live flights overhead
+- 🛰️ **Phase 3 — Weather Satellites:** Receives and decodes images from NOAA satellites
+- 🌐 **Phase 4 — Web Dashboard:** Live web interface showing spectrum, flights, and satellite images
+
+## Hardware
+
+| Part | Cost |
+|------|------|
+| Raspberry Pi 5 | ~$80 |
+| RTL-SDR Blog V4 dongle | ~$30 |
+| Telescoping antenna (included) | — |
+| V-dipole antenna (hand-built) | ~$2 |
+
+## Project structure sdr-radio-pi
+
+## Progress
+
+- [ ] Phase 1 — FM Radio
+- [ ] Phase 2 — ADS-B Aircraft Tracking
+- [ ] Phase 3 — NOAA Weather Satellites
+- [ ] Phase 4 — Web Dashboard
+
+## Key concepts
+
+This project covers core ECE topics including analog-to-digital conversion, IQ sampling,
+FM demodulation, digital packet decoding, signal processing with FFT, and orbital mechanics
+for satellite pass prediction.
+
+## About
+
+Built by Alex Cervantes as an independent engineering project. Currently in progress.
+
