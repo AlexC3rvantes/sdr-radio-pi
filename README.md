@@ -7,7 +7,7 @@ real-world radio signals — from FM broadcasts to live weather satellite imager
 
 - 📻 **Phase 1 — FM Radio:** Tunes and plays live FM stations using a $30 USB dongle
 - ✈️ **Phase 2 — Aircraft Tracking:** Decodes ADS-B signals to map live flights overhead
-- 🛰️ **Phase 3 — Weather Satellites:** Receives and decodes images from NOAA satellites
+- 🛰️ **Phase 3 — ISS Image Reception:** Receives and decodes SSTV images transmitted from the International Space Station
 - 🌐 **Phase 4 — Web Dashboard:** Live web interface showing spectrum, flights, and satellite images
 
 ## Hardware
@@ -32,7 +32,8 @@ real-world radio signals — from FM broadcasts to live weather satellite imager
 
 This project covers core ECE topics including analog-to-digital conversion, IQ sampling,
 FM demodulation, digital packet decoding, signal processing with FFT, and orbital mechanics
-for satellite pass prediction.
+for ISS pass prediction, and SSTV image decoding.
+
 
 ## About
 
