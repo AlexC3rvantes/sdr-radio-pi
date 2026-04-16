@@ -23,11 +23,15 @@ real-world radio signals — from FM broadcasts to live weather satellite imager
 
 ## Progress
 
-- [ ] Phase 1 — FM Radio
+- [x] Phase 1 — FM Radio
 - [ ] Phase 2 — ADS-B Aircraft Tracking
 - [ ] Phase 3 — NOAA Weather Satellites
 - [ ] Phase 4 — Web Dashboard
+## Phase 1 results
 
+![FM Spectrum](docs/images/phase1-fm-spectrum.png)
+
+Live FM spectrum captured in San Antonio,TX. Each spike is a different radio station broadcasting in the 88-108 MHz band.
 ## Key concepts
 
 This project covers core ECE topics including analog-to-digital conversion, IQ sampling,
