@@ -33,7 +33,11 @@ real-world radio signals — from FM broadcasts to live weather satellite imager
 
 Live FM spectrum captured in San Antonio,TX. Each spike is a different radio station broadcasting in the 88-108 MHz band.
 
-![ADS-B Map](docs/images/phase2-adsb-map.png)
+## Phase 2 results
+
+![ADS-B Map](docs/images/phase2-adsb-map_003.png)
+![ADS-B Map](docs/images/phase2-adsb-map_004.png)
+![ADS-B Map](docs/images/phase2-adsb-map_005.png)
 
 Live ADS-B aircraft tracking over San Antonio, TX. Flight data decoded directly from aircraft transponders at 1090 MHz.
 
