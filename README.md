@@ -24,7 +24,7 @@ real-world radio signals — from FM broadcasts to live weather satellite imager
 ## Progress
 
 - [x] Phase 1 — FM Radio
-- [ ] Phase 2 — ADS-B Aircraft Tracking
+- [x] Phase 2 — ADS-B Aircraft Tracking
 - [ ] Phase 3 — NOAA Weather Satellites
 - [ ] Phase 4 — Web Dashboard
 ## Phase 1 results
@@ -32,6 +32,11 @@ real-world radio signals — from FM broadcasts to live weather satellite imager
 ![FM Spectrum](docs/images/phase1-fm-spectrum.png)
 
 Live FM spectrum captured in San Antonio,TX. Each spike is a different radio station broadcasting in the 88-108 MHz band.
+
+![ADS-B Map](docs/images/phase2-adsb-map.png)
+
+Live ADS-B aircraft tracking over San Antonio, TX. Flight data decoded directly from aircraft transponders at 1090 MHz.
+
 ## Key concepts
 
 This project covers core ECE topics including analog-to-digital conversion, IQ sampling,
