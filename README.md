@@ -1,14 +1,13 @@
 # Raspberry Pi SDR Radio Station
 
 A software-defined radio system built on a Raspberry Pi 5 that receives and decodes
-real-world radio signals — from FM broadcasts to live weather satellite imagery from orbit.
+real-world radio signals — from FM broadcasts to live plane feeds.
 
 ## What it does
 
 - 📻 **Phase 1 — FM Radio:** Tunes and plays live FM stations using a $30 USB dongle
 - ✈️ **Phase 2 — Aircraft Tracking:** Decodes ADS-B signals to map live flights overhead
-- 🛰️ **Phase 3 — ISS Image Reception:** Receives and decodes SSTV images transmitted from the International Space Station
-- 🌐 **Phase 4 — Web Dashboard:** Live web interface showing spectrum, flights, and satellite images
+- 🌐 **Phase 3 — Web Dashboard:** Live web interface showing spectrum, flights, and flight data.
 
 ## Hardware
 
@@ -24,8 +23,7 @@ real-world radio signals — from FM broadcasts to live weather satellite imager
 
 - [x] Phase 1 — FM Radio
 - [x] Phase 2 — ADS-B Aircraft Tracking
-- [ ] Phase 3 — ISS Image Reception
-- [ ] Phase 4 — Web Dashboard
+- [x] Phase 3 — Web Dashboard
 ## Phase 1 results
 
 ![FM Spectrum](docs/images/phase1-fm-spectrum.png)
@@ -40,14 +38,19 @@ Live FM spectrum captured in San Antonio,TX. Each spike is a different radio sta
 
 Live ADS-B aircraft tracking over San Antonio, TX. Flight data decoded directly from aircraft transponders at 1090 MHz.
 
+## Phase 3 results
+
+![Dashboard](docs/images/phase4-dashboard.png)
+
+Live web dashboard showing real-time ADS-B aircraft stats and map, served from the Raspberry Pi 5.
+
 ## Key concepts
 
 This project covers core ECE topics including analog-to-digital conversion, IQ sampling,
-FM demodulation, digital packet decoding, signal processing with FFT, and orbital mechanics
-for ISS pass prediction, and SSTV image decoding.
+FM demodulation, digital packet decoding,and signal processing with FFT.
 
 
 ## About
 
-Built by Alex Cervantes as an independent engineering project. Currently in progress.
+Built by Alex Cervantes as an independent engineering project. Completed.
 
