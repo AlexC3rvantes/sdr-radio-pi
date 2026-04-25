@@ -17,7 +17,6 @@ real-world radio signals — from FM broadcasts to live weather satellite imager
 | Raspberry Pi 5 | ~$80 |
 | RTL-SDR Blog V4 dongle | ~$30 |
 | Telescoping antenna (included) | — |
-| V-dipole antenna (hand-built) | ~$2 |
 
 ## Project structure sdr-radio-pi
 
@@ -25,7 +24,7 @@ real-world radio signals — from FM broadcasts to live weather satellite imager
 
 - [x] Phase 1 — FM Radio
 - [x] Phase 2 — ADS-B Aircraft Tracking
-- [ ] Phase 3 — NOAA Weather Satellites
+- [ ] Phase 3 — ISS Image Reception
 - [ ] Phase 4 — Web Dashboard
 ## Phase 1 results
 
